@@ -494,9 +494,6 @@ void CB_Tree::DrawB_Tree(CB_TreeNode *& vPB_TreeNode, CDC * pDC)
 			DrawB_Tree(vPB_TreeNode->m_B_TreeSonPointer[i], pDC);
 	}
 }
-
-
-
 //绘制B树的查找结点功能
 void CB_Tree::DrawSearchB_TreeNode(CDC * pDC)
 {
